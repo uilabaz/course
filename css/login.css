@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+}
+
+/**************************************************NAV _ UL************************************************/
+
+.navcolor {
+  background-color: #169EB7;
+  padding: 1px !important;
+}
+.reg_loglink
+{
+  font-family: 'Montserrat' !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  
+}
+
+.logokurs
+{
+  width: 120px;
+}
+
+
+.navitem {
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important;
+}
+/********************************************NAVBAR************************************/
+
+.navlink {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+  transition: 0.5s;
+  font-weight: 500 !important;
+}
+
+.activelink {
+  color: #169EB7 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+}
+
+.navlink:hover {
+  color: #169EB7 !important;
+  transition: 0.5s !important;
+  font-weight: 500 !important;
+}
+
+.activelink {
+  color: #169EB7 !important;
+  font-size: 13px !important;
+}
+
+/****************************************HEADER**********************************/
+
+.header {
+  background-image: url(../img/login.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+
+.headerlogintitle {
+  position: absolute;
+  color: white;
+  margin-top: 110px !important;
+}
+
+button:focus
+{
+
+    Outline: none !important;
+}
+.loginline {
+  border: 2px solid white !important;
+  width: 200px !important;
+  margin-top: 170px !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.logintitle {
+  color: white;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/**********************************************SECTION 2 **************************************************/
+
+.section2
+{
+  padding-bottom: 0px !important;
+}
+
+.loginDIV
+{
+  margin-top: 120px !important;
+}
+
+
+.btn
+{
+  background-color: #169EB7 !important;
+  color: white;
+  font-family: 'Montserrat', sans-serif !important;
+  width: 200px !important;
+  padding: 10px !important;
+  
+
+}
+
+.btn:hover
+{
+  background-color: white !important;
+  color: #169EB7 !important;
+  border-color:#169EB7 !important;
+  cursor: pointer;
+
+  
+
+}
+
+.forgetpassword
+{
+  margin-top: -25px !important;
+}
+
+.h4_1
+{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
+  padding-top: 30px !important;
+}
+
+.remember
+{
+  position: absolute;
+  color: #727B84;
+  font-size: 14px !important;
+  margin-top: -18px !important;
+}
+
+
+
+
+/***********************************************footer***************************************************************/
+
+.footer {
+  padding-bottom: 20px !important;
+  background-color: black !important;
+  margin-top: 150px !important;
+}
+
+.footer_p1, .footer_p2, .footer_p3 {
+  color: #727B84;
+  font-family: 'Montserrat' !important;
+}
+
+.footerb {
+  color: rgb(218, 211, 211);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.footercontacts {
+  margin-top: 80px !important;
+  text-align: center !important;
+}
+
+.link {
+  color: #727B84 !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+}
+
+.link:hover {
+  color: #169EB7 !important;
+}
+
+i {
+  color: #727B84 !important;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.footeruserlink {
+  margin-top: 110px !important;
+}
+
+.footernavlink {
+  padding: 4px !important;
+  text-align: center !important;
+  color: #727B84 !important;
+}
+
+.footernavlink:hover {
+  color: #169EB7 !important;
+}
+
+.b1 {
+  color: white !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.b2 {
+  color: #169EB7 !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.lines {
+  border: 1px solid red;
+}
+
+.mediatitle {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.mediatext {
+  color: #727B84 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+}
+
+.footermedia {
+  margin-top: 110px !important;
+}
+
+.mediaimg {
+  position: absolute !important;
+  margin-left: 8px !important;
+}
+
+.gallery {
+  margin-top: 40px !important;
+  margin-left: 15px !important;
+}
+
+.linkfooter {
+  border: 1px solid #727B84 !important;
+  margin-top: 100px !important;
+  border-bottom: 0!important;
+  border-left: 0!important;
+  border-right: 0!important;
+}
+
+.copyright {
+  color: #727B84 !important;
+  margin-top: 10px !important;
+}
+
+.icons_ul {
+  position: absolute;
+  margin-top: -45px;
+}

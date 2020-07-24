@@ -1,0 +1,404 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+}
+
+/**************************************************NAV _ UL************************************************/
+
+.navcolor {
+  background-color: #169EB7;
+  padding: 1px !important;
+}
+
+.reg_loglink
+{
+  font-family: 'Montserrat' !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  
+}
+
+.logokurs
+{
+  width: 120px;
+}
+
+
+.navitem {
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important;
+}
+/********************************************NAVBAR************************************/
+
+.navlink {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+  transition: 0.5s;
+  font-weight: 500 !important;
+}
+
+.activelink
+{
+  color: #169EB7 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+}
+
+.navlink:hover {
+  color: #169EB7 !important;
+  transition: 0.5s !important;
+  font-weight: 500 !important;
+}
+
+/****************************************HEADER**********************************/
+
+.header
+{
+    background-image: url(../img/eli-francis-_M-DrbiNFa4-unsplash.jpg) !important;
+    background-attachment: fixed;
+    padding-bottom: 70px;
+    
+}
+button:focus
+{
+
+    Outline: none !important;
+}
+.headercoursestitle
+{
+
+    position: absolute;
+    color: white;
+    margin-top: 110px !important;
+}
+
+.coursesline
+{
+    border: 2px solid white !important;
+    width: 200px !important;
+    margin-top: 170px !important;
+    border-bottom: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+
+
+.coursestitle
+{
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************SECTION 1**********************************/
+
+.section2 {
+  padding: 60px !important;
+}
+
+.section2titile {
+  font-size: 30px;
+  color: #212323;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  margin-top: 30px !important;
+}
+
+.div-line {
+  border: 2.5px solid #727B84;
+  padding: 5px;
+  width: 100px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin-left: 110px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************SECTION 2**********************************/
+
+.coursesDIV
+{
+  margin-top: 120px !important;
+}
+
+.btn1:hover {
+  background-color: #169EB7;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+.btn1 {
+  border-radius: 0px !important;
+  font-size: 13px !important;
+  transition: 0.5s !important;
+  border-color: rgb(182, 182, 182) !important;
+  cursor: pointer !important;
+}
+
+.btn2 {
+  font-size: 13px !important;
+  transition: 0.5s !important;
+  border-color: rgb(182, 182, 182) !important;
+  background-color: #169EB7;
+  height: 50px !important;
+  width: 200px !important;
+  font-size: 16px !important;
+  padding: 6px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  color: white;
+  cursor: pointer !important;
+}
+
+.btn2:hover {
+  transition: 0.5s !important;
+  border-color: #169EB7 !important;
+  background-color: #ffffff;
+  color: black !important;
+  cursor: pointer !important;
+}
+
+.card-footer {
+  background-color: #ffffff !important;
+}
+
+h5 {
+  font-size: 15px !important;
+}
+
+
+
+.circleprice {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border: 1px solid #169EB7;
+  ;
+  border-radius: 50%;
+  background-color: #169EB7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardimg {
+  padding: 17px !important;
+  
+}
+
+.teacher_icon
+{
+    margin-left: 30px !important;
+}
+
+.price {
+  margin-left: 5px !important;
+  margin-top: 14px !important;
+  color: white;
+  font-family: 'Montserrat' !important;
+  font-size: 20px !important;
+}
+
+.cardcourses:hover {
+  border-color: #169EB7 !important;
+  transition: 0.5s !important;
+}
+
+.card {
+  border-radius: 0px !important;
+  transition: 0.5s !important;
+}
+
+
+.page-link:hover
+{
+    background-color: #169EB7 !important;
+    color: white !important;
+  
+}
+
+
+
+
+/***********************************************footer***************************************************************/
+
+.footer {
+  padding-bottom: 20px !important;
+  background-color: black !important;
+  margin-top: 60px !important;
+}
+
+.footer_p1,.footer_p2,.footer_p3
+{
+  color: #727B84;
+  font-family: 'Montserrat' !important;
+
+
+
+}
+
+.footerb
+{
+  color: rgb(218, 211, 211);
+  font-family:Arial, Helvetica, sans-serif
+  
+}
+
+.footercontacts
+{
+  margin-top: 80px !important;  text-align: center !important;
+}
+
+.link
+{
+  color: #727B84 !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+}
+
+.link:hover
+{
+color:  #169EB7 !important;
+
+}
+
+i{
+  color: #727B84 !important; 
+  font-style: normal;
+  font-size:15px ;
+}
+
+
+.footeruserlink
+{
+  margin-top: 110px !important;
+}
+
+.footernavlink
+
+{
+  padding: 4px !important;
+  text-align: center !important;
+  color: #727B84 !important; 
+
+
+}
+
+.footernavlink:hover
+{
+  color:  #169EB7 !important;
+}
+
+.b1
+{
+  color: white !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+ 
+}
+
+.b2
+{
+  color:  #169EB7 !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.lines
+{
+  border:1px solid red;
+}
+
+
+.mediatitle
+{
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+
+
+}
+
+.mediatext
+{
+  color: #727B84 !important; 
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+}
+
+
+.footermedia{
+  margin-top: 110px !important;
+
+}
+
+.mediaimg
+{
+  position: absolute !important;
+  margin-left: 8px !important;
+
+}
+
+.gallery
+{
+  margin-top: 40px !important;
+  margin-left: 15px !important;
+}
+
+
+.linkfooter
+{
+  border: 1px  solid #727B84 !important; 
+  margin-top: 100px !important;
+  border-bottom: 0!important;
+  border-left: 0!important;
+  border-right: 0!important;
+}
+
+.copyright
+{
+  color: #727B84 !important; 
+  margin-top: 10px !important;
+}
+
+.icons_ul
+{
+  position: absolute;
+  margin-top: -45px;
+ 
+}

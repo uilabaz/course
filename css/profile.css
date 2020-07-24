@@ -1,0 +1,387 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white !important;
+  overflow-x: hidden;
+}
+
+/**************************************************NAV _ UL************************************************/
+.navcolor {
+  background-color: #169EB7;
+  padding: 1px !important;
+}
+
+.reg_loglink
+{
+  font-family: 'Montserrat' !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  
+}
+
+.logokurs
+{
+  width: 120px;
+}
+
+
+.navitem {
+  text-transform: uppercase !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase !important;
+}
+/********************************************NAVBAR************************************/
+
+.navlink {
+  color: black !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+  transition: 0.5s;
+  font-weight: 500 !important;
+}
+
+.activelink {
+  color: #169EB7 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 13px !important;
+}
+
+.navlink:hover {
+  color: #169EB7 !important;
+  transition: 0.5s !important;
+  font-weight: 500 !important;
+}
+
+.activelink {
+  color: #169EB7 !important;
+  font-size: 13px !important;
+}
+
+/****************************************HEADER**********************************/
+
+.header {
+  background-image: url(../img/teacher.jpg) !important;
+  background-attachment: fixed;
+  padding-bottom: 70px;
+}
+
+.headerprofiletitle {
+  position: absolute;
+  color: white;
+  margin-top: 110px !important;
+}
+
+.profileline {
+  border: 2px solid white !important;
+  width: 200px !important;
+  margin-top: 170px !important;
+  border-bottom: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+}
+
+.coursestitle {
+  color: white;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/****************************************SECTION 1**********************************/
+
+.section2 {
+  background-color: white;
+  padding-bottom: 20px !important;
+
+}
+
+.section2titile {
+  font-size: 30px;
+  color: #212323;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  margin-top: 80px !important;
+}
+
+.div-line {
+  border: 2.5px solid #727B84;
+  padding: 5px;
+  width: 100px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+ 
+}
+
+.abouttext
+{
+  color: #727B84;
+  font-family: 'Poppins', sans-serif !important;
+
+
+}
+
+
+
+
+
+
+
+
+/****************************************SECTION 2**********************************/
+
+.profileDIV
+{
+  margin-top: 120px !important;
+}
+
+
+.profilname
+{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 29px !important;
+  margin-top: 70px !important;
+  text-align: center !important;
+}
+
+
+.profiltitle
+{
+  color: #727B84;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center;
+}
+
+.profiltext
+{
+  color: #727B84;
+  font-family: 'Poppins', sans-serif !important;
+  padding: 5px !important;
+  letter-spacing: 0.5px !important;
+ 
+}
+
+button:focus
+{
+
+    Outline: none !important;
+}
+
+.cardtitle
+{
+  margin-left: 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  color: #727B84;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+
+
+.profillink
+{
+  text-decoration: none !important;
+  color: #727B84 !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 15px !important;
+}
+
+
+.profillink:hover
+{
+  color: #169EB7 !important;
+}
+
+
+
+.progress-bar
+{
+  height: 8px !important;
+  background-color: #169EB7 !important;
+}
+
+
+.progress1
+{
+  margin-top: -18px !important;
+}
+
+.progress2
+{
+  margin-top: -18px !important;
+}
+
+.progress3
+{
+  margin-top: -18px !important;
+}
+
+.progressbartitle
+{
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+  margin-bottom: 0px !important;
+}
+
+
+.h6title
+{
+
+  margin-top: -20px !important;
+}
+
+
+
+.formcolor
+{
+  background-color: #F4F4F4 !important;
+  border: 0 !important;
+}
+
+textarea
+{
+  background-color: #F4F4F4 !important;
+  border: 0 !important;
+}
+
+
+
+.btn
+{
+  background-color: #169EB7 !important;
+  color: #ffffff !important;
+  padding: 10px !important;
+  border-radius: 0 !important;
+  width: 150px !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+
+.btn:hover
+{
+  border-color:#169EB7 !important ;
+  color: #169EB7  !important;
+  background-color: white !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+
+
+/***********************************************footer***************************************************************/
+
+.footer {
+  padding-bottom: 20px !important;
+  background-color: black !important;
+  margin-top: 130px !important;
+}
+
+.footer_p1, .footer_p2, .footer_p3 {
+  color: #727B84;
+  font-family: 'Montserrat' !important;
+}
+
+.footerb {
+  color: rgb(218, 211, 211);
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.footercontacts {
+  margin-top: 80px !important;
+  text-align: center !important;
+}
+
+.link {
+  color: #727B84 !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+}
+
+.link:hover {
+  color: #169EB7 !important;
+}
+
+i {
+  color: #727B84 !important;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.footeruserlink {
+  margin-top: 110px !important;
+}
+
+.footernavlink {
+  padding: 4px !important;
+  text-align: center !important;
+  color: #727B84 !important;
+}
+
+.footernavlink:hover {
+  color: #169EB7 !important;
+}
+
+.b1 {
+  color: white !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.b2 {
+  color: #169EB7 !important;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.lines {
+  border: 1px solid red;
+}
+
+.mediatitle {
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.mediatext {
+  color: #727B84 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 14px !important;
+}
+
+.footermedia {
+  margin-top: 110px !important;
+}
+
+.mediaimg {
+  position: absolute !important;
+  margin-left: 8px !important;
+}
+
+.gallery {
+  margin-top: 40px !important;
+  margin-left: 15px !important;
+}
+
+.linkfooter {
+  border: 1px solid #727B84 !important;
+  margin-top: 100px !important;
+  border-bottom: 0!important;
+  border-left: 0!important;
+  border-right: 0!important;
+}
+
+.copyright {
+  color: #727B84 !important;
+  margin-top: 10px !important;
+}
+
+.icons_ul {
+  position: absolute;
+  margin-top: -45px;
+}
